@@ -66,7 +66,7 @@ If you want to use the scripts in other scripts you need to mention "using Bapon
 Read License from [here](/LICENSE.txt) .
 You can use it for non commercial purpose  but if you want to use it for commarcial purpose then you need to donate minimum $1 before using it.
 
-![Donation](/Assets/baponkar_Third_Person_Shooter/Image/frame.png)(https://github.com/sponsors/baponkar)
+![Donation](/Assets/baponkar_Third_Person_Shooter/Image/frame.png) or [here](https://github.com/sponsors/baponkar)
 
 ## Unity Version
 Unity 2020.3.15f2 or higher version.
