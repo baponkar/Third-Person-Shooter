@@ -1,11 +1,11 @@
 ![Unity2020badge](https://img.shields.io/badge/Unity-2020-orange)
 ![C#badge](https://img.shields.io/badge/C-%23-brightgreen)
 
-# ![Third Person Shooter](https://github.com/baponkar/third-person-shooter)
+# [Third Person Shooter](https://github.com/baponkar/third-person-shooter)
 ## Version-1.0.0
 
-![ScreenShts1](ScreenShots/Screenshot 2022-06-11 234946.png)
-![ScreenShts2](ScreenShots/(Screenshot 2022-06-12 143643.png)
+![ScreenShts1](/ScreenShots/Screenshot 2022-06-11 234946.png)
+![ScreenShts2](/ScreenShots/(Screenshot 2022-06-12 143643.png)
 
 This Unity Package has a Third Person Shooter Player which can shoot anything by raycast weapon.
 I made this package by watching  !['Kiwi Coder'](https://www.youtube.com/c/TheKiwiCoder)s tutorials in YouTube.
@@ -16,11 +16,11 @@ This package also dependent on following packges :
 
 1. Cinemachine
 2. Animation Rigging
-3. ![Unity Standard-Assets-Character](https://github.com/Unity-Technologies/Standard-Assets-Characters)
-4. ![Guns Pack : Low Poly Guns Collection](https://assetstore.unity.com/packages/3d/props/guns/guns-pack-low-poly-guns-collection-192553#publisher)
-5. ![Human Character (Free Sample Pack)](https://assetstore.unity.com/packages/3d/characters/human-characters-free-sample-pack-181554) by wolf3d
-6. ![Polygon Starter Pack](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819#description)
-7. ![Unity Particle Pack](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325#description)
+3. [Unity Standard-Assets-Character](https://github.com/Unity-Technologies/Standard-Assets-Characters)
+4. [Guns Pack : Low Poly Guns Collection](https://assetstore.unity.com/packages/3d/props/guns/guns-pack-low-poly-guns-collection-192553#publisher)
+5. [Human Character (Free Sample Pack)](https://assetstore.unity.com/packages/3d/characters/human-characters-free-sample-pack-181554) by wolf3d
+6. [Polygon Starter Pack](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819#description)
+7. [Unity Particle Pack](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325#description)
 
 So you need to import above packages except third from 'Unity Asset store' as I have removed from my
 package to save memory.Although you need to download 'Standard Asset Character' from here.
@@ -58,12 +58,12 @@ If you want to use the scripts in other scripts you need to mention "using Bapon
 7. There is no reload option is not added.
 
 
-## ![License](/LICENSE.txt) :
+## [License](/LICENSE.txt) :
 You can use it for non commercial purpose  but if you want to use it for commarcial purpose then you need to donate minimum $1 before using it.
 
 ## Unity Version
 Unity 2020.3.15f2 or higher version.
 
-## Contact : ![Email](gamingjam60@gmail.com) , @baponkar
+## Contact : [Email](gamingjam60@gmail.com) , @baponkar
 
 
