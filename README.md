@@ -4,7 +4,8 @@
 # [Third Person Shooter](https://github.com/baponkar/third-person-shooter)
 ## Version-1.0.0
 
-![ScreenShts1](/ScreenShots/Screenshot 2022-06-11 234946.png)
+![ScreenShts1](\ScreenShots\Screenshot 2022-06-11 234946.png)
+
 ![ScreenShts2](/ScreenShots/(Screenshot 2022-06-12 143643.png)
 
 This Unity Package has a Third Person Shooter Player which can shoot anything by raycast weapon.
