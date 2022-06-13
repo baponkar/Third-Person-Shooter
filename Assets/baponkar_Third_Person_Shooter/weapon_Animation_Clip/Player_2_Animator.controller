@@ -189,7 +189,7 @@ AnimatorController:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Third_Person_Shooter
+  m_Name: Player_2_Animator
   serializedVersion: 5
   m_AnimatorParameters:
   - m_Name: inputX
