@@ -11,8 +11,14 @@ namespace Baponkar.ThirdPerson.Shooter
 {
     public class CameraAim : MonoBehaviour
     {
+        [HideInInspector]
         public Camera mainCamera;
         public float rotationSpeed = 15f;
+
+        void Start()
+        {
+            mainCamera = Camera.main;
+        }
 
         void FixedUpdate()
         {

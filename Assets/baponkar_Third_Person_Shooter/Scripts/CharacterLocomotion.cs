@@ -47,19 +47,19 @@ namespace  Baponkar.ThirdPerson.Shooter
         void Update()
         {
             #if UNITY_EDITOR
-                Debug.Log("This is Unity Editor");
+                //Debug.Log("This is Unity Editor");
                 ProcesInputs();
             #elif UNITY_ANDROID
-                Debug.Log("This is Android platform");
+                //Debug.Log("This is Android platform");
             #elif UNITY_IOS
-                Debug.Log("This is IOS Platform");
+                //Debug.Log("This is IOS Platform");
             #elif UNITY_STANDALONE_WIN
-                Debug.Log("This is Windows platform");
+                //Debug.Log("This is Windows platform");
                 ProcesInputs();
             #elif UNITY_STANDALONE_OSX
                 ProcesInputs();
             #elif UNITY_WEBGL
-                Debug.Log("This is WebGL Platform");
+                //Debug.Log("This is WebGL Platform");
                 ProcesInputs();
             #endif
 

@@ -18,6 +18,10 @@ namespace Baponkar.ThirdPerson.Shooter
             secondary = 1
         }
 
+        Camera cam;
+
+        
+
         WeaponSoundManager weaponSoundManager;
 
         public Cinemachine.CinemachineFreeLook playerCamera;
@@ -44,6 +48,7 @@ namespace Baponkar.ThirdPerson.Shooter
 
         void Start()
         {
+            cam = Camera.main;
             weaponSoundManager = FindObjectOfType<WeaponSoundManager>();
             RaycastWeapon existingWeapon = this.GetComponentInChildren<RaycastWeapon>();
 
@@ -56,6 +61,7 @@ namespace Baponkar.ThirdPerson.Shooter
 
         void Update()
         {
+            raycastTarget = cam.transform.GetChild(1);
             var weapon = GetWeapon(activeWeaponIndex);
             if(weapon && !isHoistered)
             {

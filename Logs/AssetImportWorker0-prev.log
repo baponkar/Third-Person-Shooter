@@ -15,11 +15,11 @@ B:/Unity_Projects/Third Person Shooter
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65391
+55354
 Successfully changed project path to: B:/Unity_Projects/Third Person Shooter
 B:/Unity_Projects/Third Person Shooter
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 89.23 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 110.47 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.15f2 (6cf78cb77498)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Resources/UnitySubsystems
@@ -35,7 +35,7 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56300
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56164
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
@@ -43,93 +43,93 @@ Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/LinuxStandaloneSupport/UnityEditor.LinuxStandalone.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.3.15f2/Editor/Data/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
-Registered in 0.003720 seconds.
+Registered in 0.002475 seconds.
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 94.48 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 94.01 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.952 seconds
+- Completed reload, in  1.960 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1952ms)
-		BeginReloadAssembly (47ms)
+	ReloadAssembly (1961ms)
+		BeginReloadAssembly (48ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (462ms)
-			LoadAssemblies (46ms)
+		EndReloadAssembly (493ms)
+			LoadAssemblies (47ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (162ms)
+			SetupTypeCache (178ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (28ms)
-			SetupLoadedEditorAssemblies (220ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (227ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (6ms)
+				InitializePlatformSupportModulesInManaged (7ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (95ms)
-				BeforeProcessingInitializeOnLoad (10ms)
-				ProcessInitializeOnLoadAttributes (82ms)
-				ProcessInitializeOnLoadMethodAttributes (26ms)
+				RefreshPlugins (94ms)
+				BeforeProcessingInitializeOnLoad (12ms)
+				ProcessInitializeOnLoadAttributes (86ms)
+				ProcessInitializeOnLoadMethodAttributes (28ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.002319 seconds.
+Registered in 0.002327 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 93.36 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 89.97 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.885 seconds
+- Completed reload, in  1.907 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1885ms)
-		BeginReloadAssembly (126ms)
+	ReloadAssembly (1908ms)
+		BeginReloadAssembly (145ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (4ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
 			CreateAndSetChildDomain (19ms)
-		EndReloadAssembly (1703ms)
-			LoadAssemblies (79ms)
+		EndReloadAssembly (1698ms)
+			LoadAssemblies (81ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (284ms)
+			SetupTypeCache (281ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (56ms)
-			SetupLoadedEditorAssemblies (1117ms)
+			RebuildScriptCaches (67ms)
+			SetupLoadedEditorAssemblies (1125ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (13ms)
+				InitializePlatformSupportModulesInManaged (15ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (93ms)
-				BeforeProcessingInitializeOnLoad (106ms)
-				ProcessInitializeOnLoadAttributes (887ms)
-				ProcessInitializeOnLoadMethodAttributes (13ms)
+				RefreshPlugins (90ms)
+				BeforeProcessingInitializeOnLoad (97ms)
+				ProcessInitializeOnLoadAttributes (904ms)
+				ProcessInitializeOnLoadMethodAttributes (14ms)
 				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (6ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
 Platform modules already initialized, skipping
 ========================================================================
 Worker process is ready to serve import requests
-Launched and connected shader compiler UnityShaderCompiler.exe after 0.09 seconds
-Refreshing native plugins compatible for Editor in 0.81 ms, found 4 plugins.
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.06 seconds
+Refreshing native plugins compatible for Editor in 0.82 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2762 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 215.9 MB.
-System memory in use after: 216.1 MB.
+System memory in use before: 216.0 MB.
+System memory in use after: 216.2 MB.
 
 Unloading 45 unused Assets to reduce memory usage. Loaded Objects now: 3233.
-Total: 3.970700 ms (FindLiveObjects: 0.316100 ms CreateObjectMapping: 0.117200 ms MarkObjects: 3.346000 ms  DeleteObjects: 0.190100 ms)
+Total: 3.649500 ms (FindLiveObjects: 0.265600 ms CreateObjectMapping: 0.117700 ms MarkObjects: 3.137300 ms  DeleteObjects: 0.127800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -144,140 +144,21 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/Scenes
-  artifactKey: Guid(8db5810e1cd0dc94da743e1142bddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes using Guid(8db5810e1cd0dc94da743e1142bddf7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '251ea244299e267b675b6e5da48dd67d') in 0.038982 seconds 
-  Import took 0.049025 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.095041 seconds.
-  path: Assets/Scenes/Test Scene.unity
-  artifactKey: Guid(31c79ef35afe43d46873a163288ed4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Scenes/Test Scene.unity using Guid(31c79ef35afe43d46873a163288ed4dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8204c41f3b39de908d79c235b9d8170') in 0.025279 seconds 
-  Import took 0.032942 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 43.051481 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Materials/Bullet.mat
-  artifactKey: Guid(b839573e8aa81f4468db3ae1af9855ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Materials/Bullet.mat using Guid(b839573e8aa81f4468db3ae1af9855ce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f6c15f3a54eb5c9170a8872d21bb346e') in 0.144653 seconds 
-  Import took 0.151195 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Materials/Capsule.mat
-  artifactKey: Guid(c5818f35a4db0b44997a0a3936e57d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Materials/Capsule.mat using Guid(c5818f35a4db0b44997a0a3936e57d00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '575211a00d745afce71b058ad438fec1') in 0.026716 seconds 
-  Import took 0.035267 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.768148 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/Male_02_V01.prefab
-  artifactKey: Guid(63545b063e39bc94083eab1571bd013e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/Male_02_V01.prefab using Guid(63545b063e39bc94083eab1571bd013e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '354ef4ac224cfcaa6e2fde114d04110b') in 0.321632 seconds 
-  Import took 0.329261 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000548 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/PistolPickup.prefab
-  artifactKey: Guid(4a721f05fd5f87f40918fdaa3fcb6136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/PistolPickup.prefab using Guid(4a721f05fd5f87f40918fdaa3fcb6136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb438920a21b0b62d82b0da73c3c75d') in 0.083083 seconds 
-  Import took 0.095222 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000503 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/WeaponPickup.prefab
-  artifactKey: Guid(31b27fe20d191f249b354d9f628cc550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/WeaponPickup.prefab using Guid(31b27fe20d191f249b354d9f628cc550) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0993145d24889369c9f72e62640af49') in 0.047128 seconds 
-  Import took 0.055607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.084916 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/PistolPickup.prefab
-  artifactKey: Guid(4a721f05fd5f87f40918fdaa3fcb6136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/PistolPickup.prefab using Guid(4a721f05fd5f87f40918fdaa3fcb6136) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cdb438920a21b0b62d82b0da73c3c75d') in 0.047466 seconds 
-  Import took 0.060588 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 99.831033 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/Weapons/assault1.prefab
-  artifactKey: Guid(ea50504c02f619f4196a7689d0c6e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/Weapons/assault1.prefab using Guid(ea50504c02f619f4196a7689d0c6e217) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60d706a38ac63ec128cf35a7df682eba') in 0.029265 seconds 
-  Import took 0.036964 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000363 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/Weapons/pistol1.prefab
-  artifactKey: Guid(6cfb58ac8b5f60d49b95e9ce8c3cf96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/Weapons/pistol1.prefab using Guid(6cfb58ac8b5f60d49b95e9ce8c3cf96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57cb108431ad69bfb232fd2a4a0abd1') in 0.033906 seconds 
-  Import took 0.045301 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006954 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Prefabs/Weapons/pistol1.prefab
-  artifactKey: Guid(6cfb58ac8b5f60d49b95e9ce8c3cf96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/Weapons/pistol1.prefab using Guid(6cfb58ac8b5f60d49b95e9ce8c3cf96d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e57cb108431ad69bfb232fd2a4a0abd1') in 0.032226 seconds 
-  Import took 0.039706 seconds .
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Third_Person_Shooter.controller
+  artifactKey: Guid(d6782961a36d3d64caea0028895ae0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Third_Person_Shooter.controller using Guid(d6782961a36d3d64caea0028895ae0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884757c07f4d88cdbc3a24bd4771d382') in 0.039472 seconds 
+  Import took 0.045384 seconds .
 
 ========================================================================
 Received Prepare
-Registering precompiled user dll's ...
-Registered in 0.014814 seconds.
-Begin MonoManager ReloadAssembly
-Native extension for Lumin target not found
-Native extension for LinuxStandalone target not found
-Native extension for WindowsStandalone target not found
-Native extension for OSXStandalone target not found
-Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 3.64 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Mono: successfully reloaded assembly
-- Completed reload, in  1.453 seconds
-Domain Reload Profiling:
-	ReloadAssembly (1454ms)
-		BeginReloadAssembly (290ms)
-			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (29ms)
-			BackupInstance (0ms)
-			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (141ms)
-		EndReloadAssembly (1105ms)
-			LoadAssemblies (170ms)
-			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (259ms)
-			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (50ms)
-			SetupLoadedEditorAssemblies (474ms)
-				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (21ms)
-				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (105ms)
-				ProcessInitializeOnLoadAttributes (335ms)
-				ProcessInitializeOnLoadMethodAttributes (8ms)
-				AfterProcessingInitializeOnLoad (3ms)
-				EditorAssembliesLoaded (0ms)
-			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
-Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.87 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.1 MB.
-System memory in use after: 214.3 MB.
+Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 157.3 MB.
+System memory in use after: 157.5 MB.
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 3290.
-Total: 3.445200 ms (FindLiveObjects: 0.261300 ms CreateObjectMapping: 0.114400 ms MarkObjects: 2.986700 ms  DeleteObjects: 0.082000 ms)
+Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3233.
+Total: 3.842600 ms (FindLiveObjects: 0.283300 ms CreateObjectMapping: 0.139900 ms MarkObjects: 3.404000 ms  DeleteObjects: 0.014500 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -292,443 +173,333 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  Time since last request: 953.764793 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame.png
-  artifactKey: Guid(ea6359bf8637f264b87f9d508a9007c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame.png using Guid(ea6359bf8637f264b87f9d508a9007c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c10129f8eeddda8832bc0d199c51b4ed') in 0.083247 seconds 
-  Import took 0.091657 seconds .
+  Time since last request: 12.431171 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Player_2_Animator.controller
+  artifactKey: Guid(d6782961a36d3d64caea0028895ae0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Player_2_Animator.controller using Guid(d6782961a36d3d64caea0028895ae0bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3126ad1b558522ad35950c5528767193') in 0.012992 seconds 
+  Import took 0.019000 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 702.513222 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Materials/Donation.mat
-  artifactKey: Guid(ef5ae4a4bdcbfcc43bbf259529fef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Materials/Donation.mat using Guid(ef5ae4a4bdcbfcc43bbf259529fef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78b2391507a4f7bbb339d16b22634336') in 0.068156 seconds 
-  Import took 0.077157 seconds .
+  Time since last request: 12.488439 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Player_2_Animator 1.controller
+  artifactKey: Guid(247607c48df918e449b1a39fe0a5fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Player_2_Animator 1.controller using Guid(247607c48df918e449b1a39fe0a5fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e03c60bcc4b577cd223d79ad45f378a3') in 0.015452 seconds 
+  Import took 0.024161 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 5.679026 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Body.png
-  artifactKey: Guid(0e3c18d2ba48d964184ba19a941b3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Body.png using Guid(0e3c18d2ba48d964184ba19a941b3af3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ba3026c954d9c371161ff03523e9172') in 0.040088 seconds 
-  Import took 0.049012 seconds .
+  Time since last request: 9.993361 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Player_Animator.controller
+  artifactKey: Guid(247607c48df918e449b1a39fe0a5fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Player_Animator.controller using Guid(247607c48df918e449b1a39fe0a5fe48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c04c363413788de14e895aa65a1999c') in 0.016178 seconds 
+  Import took 0.022208 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000315 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Hair.png
-  artifactKey: Guid(baeeda917e4fb2543a0b9715a0ed97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Hair.png using Guid(baeeda917e4fb2543a0b9715a0ed97e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7275c1e116a65df314b7ee4c2cc15f2f') in 0.020986 seconds 
-  Import took 0.027499 seconds .
+  Time since last request: 28.153614 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_assultRifle_2.anim
+  artifactKey: Guid(8395e5ec203bb8c439883354667d07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_assultRifle_2.anim using Guid(8395e5ec203bb8c439883354667d07a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '661bc62b8dfd73320c4fcb407511b021') in 0.011897 seconds 
+  Import took 0.017864 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000433 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Shoes_N.png
-  artifactKey: Guid(c96125dc6f5782b47b4bedd8cc7358f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Shoes_N.png using Guid(c96125dc6f5782b47b4bedd8cc7358f1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2f5e80cbbfff6c8feaa2f6294f35b76') in 0.062434 seconds 
-  Import took 0.071166 seconds .
+  Time since last request: 5.285516 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol_2.anim
+  artifactKey: Guid(e4dfe3ebc871f8a42be626dcec421d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol_2.anim using Guid(e4dfe3ebc871f8a42be626dcec421d3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f2fbb35b7423c23b3d75fdf3194169fc') in 0.008318 seconds 
+  Import took 0.014743 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Body_N.png
-  artifactKey: Guid(41223c59c0a145e4f96f443acfae11f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Body_N.png using Guid(41223c59c0a145e4f96f443acfae11f2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '59eced607e2cfa35dd5d62a62c641cb6') in 0.061324 seconds 
-  Import took 0.070220 seconds .
+  Time since last request: 1.244285 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed.anim
+  artifactKey: Guid(7873df1ea1bdea94fa1831d9ab01fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed.anim using Guid(7873df1ea1bdea94fa1831d9ab01fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4260ffb31281b2f40f926042fff9928') in 0.008665 seconds 
+  Import took 0.013974 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000414 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Hair_N.png
-  artifactKey: Guid(edab027aa5f4410469bca66cbee547a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Hair_N.png using Guid(edab027aa5f4410469bca66cbee547a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbfd0c176c48c698bcb41563a80c996') in 0.028903 seconds 
-  Import took 0.035929 seconds .
+  Time since last request: 0.000621 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed.anim
+  artifactKey: Guid(7873df1ea1bdea94fa1831d9ab01fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed.anim using Guid(7873df1ea1bdea94fa1831d9ab01fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4260ffb31281b2f40f926042fff9928') in 0.003069 seconds 
+  Import took 0.009327 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_05/V01/Textures/Female_05_V01_Body.png
-  artifactKey: Guid(815103ee5ab2f6f49954e3505aa72202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_05/V01/Textures/Female_05_V01_Body.png using Guid(815103ee5ab2f6f49954e3505aa72202) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc577bde34f9ec7e7fe5ae8ff987068b') in 0.038193 seconds 
-  Import took 0.047106 seconds .
+  Time since last request: 2.980895 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed_2.anim
+  artifactKey: Guid(7873df1ea1bdea94fa1831d9ab01fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed_2.anim using Guid(7873df1ea1bdea94fa1831d9ab01fa34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c241585c29aef618f7868d1fe70d1041') in 0.008258 seconds 
+  Import took 0.014369 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Hair_N.png
-  artifactKey: Guid(42aecebf1b08e834c928bb328ab05490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Hair_N.png using Guid(42aecebf1b08e834c928bb328ab05490) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1a4c20166ce7b9089dc3349dfa865363') in 0.044684 seconds 
-  Import took 0.051220 seconds .
+  Time since last request: 4.765261 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_pistol_2.anim
+  artifactKey: Guid(b3bb50e2962c5b14b897b7d491d908a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_pistol_2.anim using Guid(b3bb50e2962c5b14b897b7d491d908a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd73022257c050b08863d0c3e4912322f') in 0.007404 seconds 
+  Import took 0.013803 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Body_N.png
-  artifactKey: Guid(0080e96f6e0adf94881ccc4d4f16e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Body_N.png using Guid(0080e96f6e0adf94881ccc4d4f16e17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8036143390c7d581dada42bb0c2e6eb9') in 0.037797 seconds 
-  Import took 0.046945 seconds .
+  Time since last request: 2.891736 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle.anim
+  artifactKey: Guid(961f1d1f89bf8ab47836f1f761789b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle.anim using Guid(961f1d1f89bf8ab47836f1f761789b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2917323fc8ec88e22fa56173a3e5a4a9') in 0.009266 seconds 
+  Import took 0.015224 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Glasses.png
-  artifactKey: Guid(91b2926b601be2c47a14d21bba734961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Glasses.png using Guid(91b2926b601be2c47a14d21bba734961) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '979d9c703bc70335b6f4a39210eccfbf') in 0.023110 seconds 
-  Import took 0.032755 seconds .
+  Time since last request: 0.001167 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle.anim
+  artifactKey: Guid(961f1d1f89bf8ab47836f1f761789b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle.anim using Guid(961f1d1f89bf8ab47836f1f761789b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2917323fc8ec88e22fa56173a3e5a4a9') in 0.002987 seconds 
+  Import took 0.009481 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Hair_N.png
-  artifactKey: Guid(805c754ca67481044b0f1f08314cc456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Hair_N.png using Guid(805c754ca67481044b0f1f08314cc456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a5677cc07385c7c41b60f456930aeb0') in 0.023533 seconds 
-  Import took 0.031062 seconds .
+  Time since last request: 3.834656 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle_2.anim
+  artifactKey: Guid(961f1d1f89bf8ab47836f1f761789b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle_2.anim using Guid(961f1d1f89bf8ab47836f1f761789b48) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '847182802ad29f04c390cdee37dc82aa') in 0.007298 seconds 
+  Import took 0.039548 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Body.png
-  artifactKey: Guid(c70ab5dfcf89a4345a2aa22479f173c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Body.png using Guid(c70ab5dfcf89a4345a2aa22479f173c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5dc98b2db7607d14050d7948945ff1a') in 0.037603 seconds 
-  Import took 0.044020 seconds .
+  Time since last request: 5.138087 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol_2.anim
+  artifactKey: Guid(5dea9e200fea15045970260b15722c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol_2.anim using Guid(5dea9e200fea15045970260b15722c6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c03767e4ccee948379881a74ee22425') in 0.007063 seconds 
+  Import took 0.013276 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Body.png
-  artifactKey: Guid(51762457d5272bd40b9aa4266d3740f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Body.png using Guid(51762457d5272bd40b9aa4266d3740f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6fff041650cd905fe6dd09947935d21') in 0.018452 seconds 
-  Import took 0.026127 seconds .
+  Time since last request: 5.034392 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle_2.anim
+  artifactKey: Guid(6e56d803ac9c30247afaae698b803b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle_2.anim using Guid(6e56d803ac9c30247afaae698b803b93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aac424df3d23312ba469313784374d57') in 0.007051 seconds 
+  Import took 0.013593 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000293 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Face.png
-  artifactKey: Guid(fa7bf850d74bf504bb34f821e97904c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Face.png using Guid(fa7bf850d74bf504bb34f821e97904c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '858323a6134dad124d7fcd4f52f588dc') in 0.031820 seconds 
-  Import took 0.041003 seconds .
+  Time since last request: 6.339828 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_assultRifle_2 1.anim
+  artifactKey: Guid(956aaf97ef740c6448e88de27165c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_assultRifle_2 1.anim using Guid(956aaf97ef740c6448e88de27165c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '552ea3fe15e2af2933811abbf8e9c0dc') in 0.008278 seconds 
+  Import took 0.013449 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Hair_N.png
-  artifactKey: Guid(d68b9549fc1c0e548ac25b34d60c4b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Hair_N.png using Guid(d68b9549fc1c0e548ac25b34d60c4b90) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52afa6b7ee75abd8845ae5b23d2bdfde') in 0.036846 seconds 
-  Import took 0.045409 seconds .
+  Time since last request: 14.465480 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_assultRifle.anim
+  artifactKey: Guid(956aaf97ef740c6448e88de27165c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_assultRifle.anim using Guid(956aaf97ef740c6448e88de27165c9f7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6285b28c69596ff156f26b880c0ba42e') in 0.008779 seconds 
+  Import took 0.014627 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000405 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Face.png
-  artifactKey: Guid(1bf71cb07a2166a40a4e21c27be10e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Face.png using Guid(1bf71cb07a2166a40a4e21c27be10e31) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce4f92e08d118de16261bebd948186a4') in 0.035245 seconds 
-  Import took 0.043991 seconds .
+  Time since last request: 1.660795 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol_2 1.anim
+  artifactKey: Guid(ad76c1519a45ce341b62a07486740524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol_2 1.anim using Guid(ad76c1519a45ce341b62a07486740524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e6a546f15e1f45e3874a7894c8936a') in 0.008712 seconds 
+  Import took 0.014014 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000404 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Hair.png
-  artifactKey: Guid(cd7b258bc39a33c4796342acd7473b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Hair.png using Guid(cd7b258bc39a33c4796342acd7473b36) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afbdac5fb87bd00eed42ca6032809647') in 0.026516 seconds 
-  Import took 0.035562 seconds .
+  Time since last request: 0.028796 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol_2 1.anim
+  artifactKey: Guid(ad76c1519a45ce341b62a07486740524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol_2 1.anim using Guid(ad76c1519a45ce341b62a07486740524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '15e6a546f15e1f45e3874a7894c8936a') in 0.003339 seconds 
+  Import took 0.009737 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000208 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Eye.png
-  artifactKey: Guid(3b00904306449de45a20fc2a2abb00da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Eye.png using Guid(3b00904306449de45a20fc2a2abb00da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '585f1563373ac092e2b232c73953a2a3') in 0.033922 seconds 
-  Import took 0.043747 seconds .
+  Time since last request: 2.943363 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol.anim
+  artifactKey: Guid(ad76c1519a45ce341b62a07486740524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_pistol.anim using Guid(ad76c1519a45ce341b62a07486740524) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9e468daba1d0c06f57bf2aa53647da4a') in 0.008557 seconds 
+  Import took 0.014662 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Body_N.png
-  artifactKey: Guid(d4492d4b49538574cb97c2e8d63f9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Body_N.png using Guid(d4492d4b49538574cb97c2e8d63f9849) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68c1ea658029a664f249ff6ca4bf0706') in 0.043799 seconds 
-  Import took 0.051052 seconds .
+  Time since last request: 1.441952 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed_2 1.anim
+  artifactKey: Guid(a6cd413f875c03b45977e8cd0e981512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed_2 1.anim using Guid(a6cd413f875c03b45977e8cd0e981512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e37090234421870a95b85d8c356adf') in 0.008446 seconds 
+  Import took 0.014014 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Face.png
-  artifactKey: Guid(b385dc6aacd8e15409beb8d727f7725a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Face.png using Guid(b385dc6aacd8e15409beb8d727f7725a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '376911fadae9e3929f5c307ee0cfb29a') in 0.039712 seconds 
-  Import took 0.049478 seconds .
+  Time since last request: 0.000693 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed_2 1.anim
+  artifactKey: Guid(a6cd413f875c03b45977e8cd0e981512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed_2 1.anim using Guid(a6cd413f875c03b45977e8cd0e981512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '31e37090234421870a95b85d8c356adf') in 0.003455 seconds 
+  Import took 0.010002 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000284 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Face.png
-  artifactKey: Guid(cec08e29b8f7de643be5361fec86aa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Face.png using Guid(cec08e29b8f7de643be5361fec86aa1d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b96c591079689ba547bf9fe03ad56997') in 0.026703 seconds 
-  Import took 0.034530 seconds .
+  Time since last request: 3.149959 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed.anim
+  artifactKey: Guid(a6cd413f875c03b45977e8cd0e981512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_anim_unarmed.anim using Guid(a6cd413f875c03b45977e8cd0e981512) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ff3f2ccd9a69f55d76b848b49a9da40') in 0.002258 seconds 
+  Import took 0.009021 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000342 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Glasses.png
-  artifactKey: Guid(1db9d94e312660644928cba1237e0ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Glasses.png using Guid(1db9d94e312660644928cba1237e0ff8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '52c65df5fd3bde82fa8397d568e8d7ed') in 0.031016 seconds 
-  Import took 0.041334 seconds .
+  Time since last request: 2.016009 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_pistol_2 1.anim
+  artifactKey: Guid(48b72b1f2c85e894eb4a8858732045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_pistol_2 1.anim using Guid(48b72b1f2c85e894eb4a8858732045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e900334c05904e8ab77044ccd1e78000') in 0.007325 seconds 
+  Import took 0.036936 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000438 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Hair.png
-  artifactKey: Guid(bd101f82f43b1344c813b9afb56c1f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Hair.png using Guid(bd101f82f43b1344c813b9afb56c1f49) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'be87458d558002bdec7a51f19df95f13') in 0.028857 seconds 
-  Import took 0.037975 seconds .
+  Time since last request: 2.967723 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_pistol.anim
+  artifactKey: Guid(48b72b1f2c85e894eb4a8858732045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_pistol.anim using Guid(48b72b1f2c85e894eb4a8858732045c4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfa5956f61a8e6776b0da263d51a979c') in 0.007313 seconds 
+  Import took 0.013523 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000198 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Face.png
-  artifactKey: Guid(856eef55c5649ae42bc2e077c1e87aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Face.png using Guid(856eef55c5649ae42bc2e077c1e87aff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4ab937da8e424e7c43d6e5dfaaed487') in 0.045979 seconds 
-  Import took 0.051566 seconds .
+  Time since last request: 2.099865 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle_2 1.anim
+  artifactKey: Guid(7dc91917f01970b43bf6bf0b65ee97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle_2 1.anim using Guid(7dc91917f01970b43bf6bf0b65ee97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c45f5a5c8f4a1cbee0f9ed43f5cc279') in 0.009502 seconds 
+  Import took 0.018312 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000245 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Body_N.png
-  artifactKey: Guid(9e1f6cd6861fcb249a49d29af749f2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Body_N.png using Guid(9e1f6cd6861fcb249a49d29af749f2ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49ec18f25e461c1283306d83472492d') in 0.057945 seconds 
-  Import took 0.064142 seconds .
+  Time since last request: 0.001211 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle_2 1.anim
+  artifactKey: Guid(7dc91917f01970b43bf6bf0b65ee97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle_2 1.anim using Guid(7dc91917f01970b43bf6bf0b65ee97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c45f5a5c8f4a1cbee0f9ed43f5cc279') in 0.003217 seconds 
+  Import took 0.009304 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Body_N.png
-  artifactKey: Guid(13479168a9a77f148b10f554e0ad9f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Body_N.png using Guid(13479168a9a77f148b10f554e0ad9f4c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42d5d28ac8531217a536b88420ad2230') in 0.040765 seconds 
-  Import took 0.048888 seconds .
+  Time since last request: 2.900136 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle.anim
+  artifactKey: Guid(7dc91917f01970b43bf6bf0b65ee97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_recoil_rifle.anim using Guid(7dc91917f01970b43bf6bf0b65ee97a9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccbe4604653a9bacb66fa57fcec7a3c2') in 0.003338 seconds 
+  Import took 0.010761 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000772 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Hair.png
-  artifactKey: Guid(78eb091a1b5eacd4a85216c728298a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V02/Textures/Female_04_V02_Hair.png using Guid(78eb091a1b5eacd4a85216c728298a4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7a38198b9abc1c47605c2ae73f9c02ec') in 0.026995 seconds 
-  Import took 0.034819 seconds .
+  Time since last request: 1.569733 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol_2 1.anim
+  artifactKey: Guid(983134ec4ab59a8449eab1f57b8f2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol_2 1.anim using Guid(983134ec4ab59a8449eab1f57b8f2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c316bcf134bdb0bdca4c7e1420b8cf02') in 0.008321 seconds 
+  Import took 0.013942 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_05/V01/Textures/Female_05_V01_Body_N.png
-  artifactKey: Guid(425cb2dec9c52b740a670b61f2f39797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_05/V01/Textures/Female_05_V01_Body_N.png using Guid(425cb2dec9c52b740a670b61f2f39797) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '647cc79be1df5e22fb3a9fe736976d05') in 0.040040 seconds 
-  Import took 0.049785 seconds .
+  Time since last request: 0.006723 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol_2 1.anim
+  artifactKey: Guid(983134ec4ab59a8449eab1f57b8f2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol_2 1.anim using Guid(983134ec4ab59a8449eab1f57b8f2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c316bcf134bdb0bdca4c7e1420b8cf02') in 0.003506 seconds 
+  Import took 0.009752 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Body.png
-  artifactKey: Guid(554b8dc09f629bb4e872f1d4c8ee3ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Body.png using Guid(554b8dc09f629bb4e872f1d4c8ee3ce8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b20608824ae8ea630a993f5e79d2e933') in 0.021601 seconds 
-  Import took 0.029566 seconds .
+  Time since last request: 2.991887 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol.anim
+  artifactKey: Guid(983134ec4ab59a8449eab1f57b8f2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_pistol.anim using Guid(983134ec4ab59a8449eab1f57b8f2936) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35b7a09b334e8a0f743a2716ecdaf6b2') in 0.006629 seconds 
+  Import took 0.012902 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Eye.png
-  artifactKey: Guid(e14f1c6b1bfe4714095d20eb8af39c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Eye.png using Guid(e14f1c6b1bfe4714095d20eb8af39c37) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3c392108379b817999119d44c3d02aa4') in 0.023621 seconds 
-  Import took 0.032567 seconds .
+  Time since last request: 1.655350 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle_2 1.anim
+  artifactKey: Guid(89f5b0268ad6c4c4e8e7a7ead1d8edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle_2 1.anim using Guid(89f5b0268ad6c4c4e8e7a7ead1d8edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccfd4ff6db195d3fa59c4331d451f8d') in 0.007370 seconds 
+  Import took 0.013633 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000263 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Eye.png
-  artifactKey: Guid(ba615fbbee76ab641a05a27a00ac245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Eye.png using Guid(ba615fbbee76ab641a05a27a00ac245e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f4ba1567f9cda837e6985bde01fcf191') in 0.021715 seconds 
-  Import took 0.028727 seconds .
+  Time since last request: 0.004580 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle_2 1.anim
+  artifactKey: Guid(89f5b0268ad6c4c4e8e7a7ead1d8edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle_2 1.anim using Guid(89f5b0268ad6c4c4e8e7a7ead1d8edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cccfd4ff6db195d3fa59c4331d451f8d') in 0.002443 seconds 
+  Import took 0.009560 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Eye.png
-  artifactKey: Guid(6e84bf808d2f2b9428e76691809d467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_02/V02/Textures/Female_02_V02_Eye.png using Guid(6e84bf808d2f2b9428e76691809d467a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c3d4ef1d14dfa675073bb213f7bd49f') in 0.035420 seconds 
-  Import took 0.042607 seconds .
+  Time since last request: 2.814255 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle.anim
+  artifactKey: Guid(89f5b0268ad6c4c4e8e7a7ead1d8edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/weapon_sprinting_rifle.anim using Guid(89f5b0268ad6c4c4e8e7a7ead1d8edc3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a659f7f1f83ecd709291df49c20d8169') in 0.032019 seconds 
+  Import took 0.040249 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000254 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Body.png
-  artifactKey: Guid(e2e1f996365b1144bba6f5caeee9934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Body.png using Guid(e2e1f996365b1144bba6f5caeee9934d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4f6e48d886c9d8fb7eba547c8ee42f8a') in 0.034619 seconds 
-  Import took 0.042290 seconds .
+  Time since last request: 39.973854 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Rig_Controller_3.controller
+  artifactKey: Guid(a6b688a29867a364db3d75dc45db5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Rig_Controller_3.controller using Guid(a6b688a29867a364db3d75dc45db5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3cc5828d609020addfc05ca2eb725271') in 0.010617 seconds 
+  Import took 0.015811 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Eye.png
-  artifactKey: Guid(c16c2216edd40754ea995bf20ea26a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V01/Textures/Female_03_V01_Eye.png using Guid(c16c2216edd40754ea995bf20ea26a94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '921a7398f7447044577c82d913bb6c15') in 0.036476 seconds 
-  Import took 0.044832 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_05/V01/Textures/Female_05_V01_Eye.png
-  artifactKey: Guid(b7554bea23ee5134985c9cddb85a634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_05/V01/Textures/Female_05_V01_Eye.png using Guid(b7554bea23ee5134985c9cddb85a634a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5728c543b90c5df1cdffed90a274ade') in 0.034706 seconds 
-  Import took 0.042460 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000789 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Hair_N.png
-  artifactKey: Guid(f0ba6c46e266e4c4384c725714ce9aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_04/V01/Textures/Female_04_V01_Hair_N.png using Guid(f0ba6c46e266e4c4384c725714ce9aa9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97d1ff38682af3d1f7ffdb70fde8d441') in 0.027764 seconds 
-  Import took 0.034844 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Hair.png
-  artifactKey: Guid(9a370e28c5f5aac479761a5e562f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Assets_external/Plugins/Wolf3D/RPM Avatar Pack/Models/FBX/Female/Female_03/V02/Textures/Female_03_V02_Hair.png using Guid(9a370e28c5f5aac479761a5e562f4fd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7399c0219f22fa377ebf242e8e567282') in 0.015306 seconds 
-  Import took 0.021441 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 12.832451 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame 1.png
-  artifactKey: Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame 1.png using Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42bac75ee2babe1afab8784497cc3eb') in 0.015944 seconds 
-  Import took 0.022621 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002666 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame 1.png
-  artifactKey: Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame 1.png using Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a42bac75ee2babe1afab8784497cc3eb') in 0.021457 seconds 
-  Import took 0.028633 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 5.683144 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame_N.png
-  artifactKey: Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame_N.png using Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd499819017013a30d2e9bb16cdefa6c0') in 0.014174 seconds 
-  Import took 0.021645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001357 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame_N.png
-  artifactKey: Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame_N.png using Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd499819017013a30d2e9bb16cdefa6c0') in 0.018150 seconds 
-  Import took 0.026288 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 8.073112 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame_N.png
-  artifactKey: Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame_N.png using Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8c3bc54d356f124a316df8147d96fc') in 0.014140 seconds 
-  Import took 0.020636 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.006643 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Image/frame_N.png
-  artifactKey: Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Image/frame_N.png using Guid(ddf188dff05b00844a9894bd307cedbd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b8c3bc54d356f124a316df8147d96fc') in 0.053728 seconds 
-  Import took 0.061319 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 3.985707 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Materials/Donation.mat
-  artifactKey: Guid(ef5ae4a4bdcbfcc43bbf259529fef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Materials/Donation.mat using Guid(ef5ae4a4bdcbfcc43bbf259529fef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2ee06b41e6d0e4b758675d19b2d7179e') in 0.042025 seconds 
-  Import took 0.048861 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 138.073847 seconds.
-  path: Assets/baponkar_Third_Person_Shooter/Materials/Donation.mat
-  artifactKey: Guid(ef5ae4a4bdcbfcc43bbf259529fef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/baponkar_Third_Person_Shooter/Materials/Donation.mat using Guid(ef5ae4a4bdcbfcc43bbf259529fef9ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5871913d5993549ff6e5cd7cc3b0ddc2') in 0.029283 seconds 
-  Import took 0.038214 seconds .
+  Time since last request: 24.833749 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Rig_Controller.controller
+  artifactKey: Guid(a6b688a29867a364db3d75dc45db5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/weapon_Animation_Clip/Rig_Controller.controller using Guid(a6b688a29867a364db3d75dc45db5cde) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72232e885485bceb71af838de464b96b') in 0.008117 seconds 
+  Import took 0.013877 seconds .
 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.035187 seconds.
+Registered in 0.002038 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.86 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.88 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.143 seconds
+- Completed reload, in  1.145 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1144ms)
-		BeginReloadAssembly (117ms)
+	ReloadAssembly (1146ms)
+		BeginReloadAssembly (146ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (6ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (44ms)
-		EndReloadAssembly (959ms)
-			LoadAssemblies (89ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (933ms)
+			LoadAssemblies (92ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (238ms)
+			SetupTypeCache (272ms)
 			ReleaseScriptCaches (1ms)
 			RebuildScriptCaches (45ms)
-			SetupLoadedEditorAssemblies (448ms)
+			SetupLoadedEditorAssemblies (404ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (18ms)
-				SetLoadedEditorAssemblies (1ms)
+				SetLoadedEditorAssemblies (0ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (132ms)
-				ProcessInitializeOnLoadAttributes (286ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (3ms)
+				BeforeProcessingInitializeOnLoad (91ms)
+				ProcessInitializeOnLoadAttributes (283ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (10ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.72 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.80 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.2 MB.
-System memory in use after: 214.4 MB.
+System memory in use before: 210.8 MB.
+System memory in use after: 211.1 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3312.
-Total: 2.743000 ms (FindLiveObjects: 0.248600 ms CreateObjectMapping: 0.118000 ms MarkObjects: 2.327500 ms  DeleteObjects: 0.048000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 3.67 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 161.3 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3312.
-Total: 3.261000 ms (FindLiveObjects: 0.256400 ms CreateObjectMapping: 0.104400 ms MarkObjects: 2.884700 ms  DeleteObjects: 0.014700 ms)
+Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3249.
+Total: 5.612700 ms (FindLiveObjects: 0.332800 ms CreateObjectMapping: 0.188600 ms MarkObjects: 5.004600 ms  DeleteObjects: 0.082600 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -742,98 +513,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 4.18 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 161.3 MB.
+Received Import Request.
+  Time since last request: 1243.208699 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/Prefabs/Player.prefab
+  artifactKey: Guid(fd8e352fd24064547b1501935345b41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/Player.prefab using Guid(fd8e352fd24064547b1501935345b41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '541d9330899011b6ba77082af2679351') in 0.230150 seconds 
+  Import took 0.238695 seconds .
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3312.
-Total: 42.196000 ms (FindLiveObjects: 0.717000 ms CreateObjectMapping: 0.135500 ms MarkObjects: 41.291800 ms  DeleteObjects: 0.049500 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
 Registering precompiled user dll's ...
-Registered in 0.004061 seconds.
+Registered in 0.002545 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for Lumin target not found
 Native extension for LinuxStandalone target not found
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
 Native extension for WebGL target not found
-Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1.03 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.585 seconds
+- Completed reload, in  1.276 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1588ms)
-		BeginReloadAssembly (313ms)
+	ReloadAssembly (1276ms)
+		BeginReloadAssembly (107ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (41ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
-			ReleaseScriptingObjects (1ms)
-			CreateAndSetChildDomain (148ms)
-		EndReloadAssembly (1199ms)
-			LoadAssemblies (103ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (34ms)
+		EndReloadAssembly (1098ms)
+			LoadAssemblies (91ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (330ms)
-			ReleaseScriptCaches (3ms)
-			RebuildScriptCaches (53ms)
-			SetupLoadedEditorAssemblies (551ms)
+			SetupTypeCache (313ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (60ms)
+			SetupLoadedEditorAssemblies (472ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (25ms)
+				InitializePlatformSupportModulesInManaged (22ms)
 				SetLoadedEditorAssemblies (1ms)
 				RefreshPlugins (1ms)
-				BeforeProcessingInitializeOnLoad (116ms)
-				ProcessInitializeOnLoadAttributes (398ms)
-				ProcessInitializeOnLoadMethodAttributes (7ms)
-				AfterProcessingInitializeOnLoad (4ms)
+				BeforeProcessingInitializeOnLoad (110ms)
+				ProcessInitializeOnLoadAttributes (325ms)
+				ProcessInitializeOnLoadMethodAttributes (8ms)
+				AfterProcessingInitializeOnLoad (5ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (12ms)
+			AwakeInstancesAfterBackupRestoration (11ms)
 Platform modules already initialized, skipping
-Refreshing native plugins compatible for Editor in 0.83 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 0.91 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 214.3 MB.
-System memory in use after: 214.5 MB.
+System memory in use before: 214.0 MB.
+System memory in use after: 214.2 MB.
 
-Unloading 20 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 3.785800 ms (FindLiveObjects: 0.561500 ms CreateObjectMapping: 0.419100 ms MarkObjects: 2.769100 ms  DeleteObjects: 0.035000 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 32.89 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 161.4 MB.
-
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 6.092600 ms (FindLiveObjects: 0.547300 ms CreateObjectMapping: 0.347300 ms MarkObjects: 5.160200 ms  DeleteObjects: 0.035900 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3272.
+Total: 3.822300 ms (FindLiveObjects: 0.326900 ms CreateObjectMapping: 0.161400 ms MarkObjects: 3.305300 ms  DeleteObjects: 0.027000 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
@@ -847,37 +582,62 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
-Received Prepare
-Refreshing native plugins compatible for Editor in 6.55 ms, found 4 plugins.
-Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 161.4 MB.
+Received Import Request.
+  Time since last request: 7.134495 seconds.
+  path: Assets/baponkar_Third_Person_Shooter/Prefabs/Player.prefab
+  artifactKey: Guid(fd8e352fd24064547b1501935345b41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/baponkar_Third_Person_Shooter/Prefabs/Player.prefab using Guid(fd8e352fd24064547b1501935345b41c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789ec81533845534a29bc315e9007a64') in 0.245022 seconds 
+  Import took 0.253242 seconds .
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 257.247500 ms (FindLiveObjects: 5.512000 ms CreateObjectMapping: 0.469400 ms MarkObjects: 251.210000 ms  DeleteObjects: 0.054100 ms)
-
-AssetImportParameters requested are different than current active one (requested -> active):
-  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
-  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
-  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
-  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
-  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
-  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
-  custom:video-codec-MediaFoundation-h265: 746d11721c4dcdbdad8f713fa42b33f4 -> 
-  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
-  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
-  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 6.30 ms, found 4 plugins.
+Registering precompiled user dll's ...
+Registered in 0.003340 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for LinuxStandalone target not found
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 1.11 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
-Unloading 18 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 161.1 MB.
-System memory in use after: 161.4 MB.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.652 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1653ms)
+		BeginReloadAssembly (152ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (9ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (1412ms)
+			LoadAssemblies (128ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (420ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (579ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (135ms)
+				ProcessInitializeOnLoadAttributes (394ms)
+				ProcessInitializeOnLoadMethodAttributes (15ms)
+				AfterProcessingInitializeOnLoad (8ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.99 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2701 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 214.0 MB.
+System memory in use after: 214.3 MB.
 
-Unloading 18 unused Assets to reduce memory usage. Loaded Objects now: 3328.
-Total: 4.036700 ms (FindLiveObjects: 0.302700 ms CreateObjectMapping: 0.134300 ms MarkObjects: 3.556000 ms  DeleteObjects: 0.042400 ms)
+Unloading 21 unused Assets to reduce memory usage. Loaded Objects now: 3289.
+Total: 3.868000 ms (FindLiveObjects: 0.375400 ms CreateObjectMapping: 0.216500 ms MarkObjects: 3.236700 ms  DeleteObjects: 0.037800 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
