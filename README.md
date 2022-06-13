@@ -35,7 +35,7 @@ You can't download or import 5th asset as it is removed from asset store so I ha
 
 ## Technical Info :
 
-* There is no settings need if you place Player prefab in your scene.(Currently it has some issue!)
+* There is no settings need if you place Player prefab in your scene.
 
 * You need to see this short video to put a Player_2 prefab in your scene or you just follow this
 
