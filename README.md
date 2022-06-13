@@ -52,6 +52,10 @@ Now you are ready to basic movement of Player2 but if you want Weapon effect the
 
 If you want to use the scripts in other scripts you need to mention "using Baponkar.ThirdPerson.Shooter" in your scripts.
 
+* If You saw that the Player or Player2 prefab not moving with input then it may be need to untick thr IK from the animator base layer like the below picture.
+
+![remove_ik_pass_tick_screenshot](/ScreenShots/remove_ik_pass.png)
+
 
 
 ## Issues :
