@@ -4,7 +4,7 @@
 # [Third Person Shooter](https://github.com/baponkar/third-person-shooter)
 ## Version-1.0.0
 
-![ScreenShts1](\ScreenShots\Screenshot_1.png)
+![ScreenShts1](ScreenShots\Screenshot_1.png)
 
 
 
