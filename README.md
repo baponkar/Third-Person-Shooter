@@ -11,9 +11,9 @@
 
 
 This Unity Package has a Third Person Shooter Player which can shoot anything by raycast weapon.
-I made this package by watching  !['Kiwi Coder'](https://www.youtube.com/c/TheKiwiCoder)s tutorials in YouTube.
+I made this package by watching  ['Kiwi Coder'](https://www.youtube.com/c/TheKiwiCoder)s tutorials in YouTube.
 
-The ![Demo Video](https://www.youtube.com/gamingjam) for this pacakge.
+The [Demo Video](https://www.youtube.com/gamingjam) for this pacakge.
 
 This package also dependent on following packges :
 
