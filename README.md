@@ -10,7 +10,8 @@
 
 
 
-This Unity Package has a Third Person Shooter Player which can shoot anything by raycast weapon.
+This Unity Package has a Third Person Shooter Player which can shoot anything by raycast weapon.Currently it has set up with two types weapon i.e. pistol and assult rifle but if you want you can use any type weapon but it has need to record animation for that kind weapon.
+
 I made this package by watching  ['Kiwi Coder'](https://www.youtube.com/c/TheKiwiCoder)s tutorials in YouTube.
 
 The [Demo Video](https://www.youtube.com/gamingjam) for this pacakge.
