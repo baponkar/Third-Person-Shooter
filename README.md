@@ -61,8 +61,10 @@ If you want to use the scripts in other scripts you need to mention "using Bapon
 7. There is no reload option is not added.
 
 
-## [License](/LICENSE.txt) :
+## License :
+Read License from [here](/LICENSE.txt) .
 You can use it for non commercial purpose  but if you want to use it for commarcial purpose then you need to donate minimum $1 before using it.
+[Donation](https://github.com/sponsors/baponkar)
 
 ## Unity Version
 Unity 2020.3.15f2 or higher version.
