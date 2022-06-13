@@ -35,9 +35,7 @@ You can't download or import 5th asset as it is removed from asset store so I ha
 
 ## Technical Info :
 
-* There is no settings need if you place Player prefab along with MainCamera prefab in your scene.
-
-* You need to see this short video to put a Player_2 prefab in your scene or you just follow this
+* You need to see this short video to put a Player or Player_2 prefab in your scene or you just follow this
 
 1. Remove MainCamera from your scene.
 2. Put 'MainCamera',"Player_Follow_Free_Look_Cam","--UI--"(optional), and "Player_2" in your scene.
