@@ -1,0 +1,18 @@
+#Credit
+
+
+#Assets are used
+
+1. Unity Technology
+2. Unity Standard-Assets-Character https://github.com/Unity-Technologies/Standard-Assets-Characters
+3. Human Character (Free Sample Pack) https://assetstore.unity.com/packages/3d/characters/human-characters-free-sample-pack-181554
+4. Guns Pack : Low Poly Guns Collection https://assetstore.unity.com/packages/3d/props/guns/guns-pack-low-poly-guns-collection-192553#publisher
+5. Polygon Starter Pack https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819#description
+6. Unity Particle Pack https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325#description
+7. Cinemachine
+8. Animation Rigging
+
+
+#Youtube Tutorials
+
+1. Kiwi Coder https://www.youtube.com/c/TheKiwiCoder
