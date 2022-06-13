@@ -4,6 +4,8 @@
 # [Third Person Shooter](https://github.com/baponkar/third-person-shooter)
 ## Version-1.0.0
 
+* Play [Demo](https://baponkar.github.io/Third-Person-Shooter-Game-Demo/).
+
 ![ScreenShts1](/ScreenShots/Screenshot_1.png)
 ![ScreenShts2](/ScreenShots/Screenshot_2.png)
 ![ScreenShts3](/ScreenShots/Screenshot_3.png)
