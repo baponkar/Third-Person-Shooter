@@ -13,7 +13,7 @@ GameObject:
   - component: {fileID: 7886044636271601084}
   - component: {fileID: 7886044636271601085}
   - component: {fileID: 7886044636271601081}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: PistolPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -118,11 +118,41 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 7886044636271601082}
     m_Modifications:
+    - target: {fileID: 1368358437326262584, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5362727721841898010, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5508022655778201070, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 6059452935612597598, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6242865925111771155, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
         type: 3}
       propertyPath: weaponAnimation
       value: 
       objectReference: {fileID: 7400000, guid: e4dfe3ebc871f8a42be626dcec421d3f, type: 2}
+    - target: {fileID: 7792434389849743625, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 8235455781676659052, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 8410979080346359377, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
         type: 3}
       propertyPath: m_RootOrder
@@ -178,10 +208,20 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8904736283221255393, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9219462472341720299, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
         type: 3}
       propertyPath: m_Name
       value: pistol1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9219462472341720299, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6cfb58ac8b5f60d49b95e9ce8c3cf96d, type: 3}

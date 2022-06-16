@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1079293461}
   - component: {fileID: 1079293462}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: CrossHairTarget
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -45,7 +45,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   layermask:
     serializedVersion: 2
-    m_Bits: 72
+    m_Bits: 513
 --- !u!1 &8788540278163917588
 GameObject:
   m_ObjectHideFlags: 0
@@ -55,7 +55,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 8788540278163917579}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Look_At
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -88,7 +88,7 @@ GameObject:
   - component: {fileID: 8788540278202562571}
   - component: {fileID: 8788540278202562580}
   - component: {fileID: 8788540278202562581}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: MainCamera
   m_TagString: MainCamera
   m_Icon: {fileID: 0}

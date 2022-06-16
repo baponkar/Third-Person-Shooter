@@ -43,7 +43,7 @@ GameObject:
   - component: {fileID: 482352378416320633}
   - component: {fileID: 482352378416320632}
   - component: {fileID: 482352378416320636}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: WeaponPickup
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -148,6 +148,16 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 482352378416320639}
     m_Modifications:
+    - target: {fileID: 1636553758200463600, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 3581488717408203925, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 3581488718040502528, guid: ea50504c02f619f4196a7689d0c6e217,
         type: 3}
       propertyPath: bulletPrefab
@@ -170,10 +180,70 @@ PrefabInstance:
       propertyPath: capsuleInstantiatePosition
       value: 
       objectReference: {fileID: 1459589696}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_RawSignal
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_ImpulseType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_ImpulseShape
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_DissipationRate
+      value: 0.25
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_ImpulseDuration
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_PropagationSpeed
+      value: 343
+      objectReference: {fileID: 0}
+    - target: {fileID: 5533034662005822377, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_ImpulseDefinition.m_DissipationDistance
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839583917473642623, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839677578175738019, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839907581938060125, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5839914243500226397, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 6061322758735272114, guid: ea50504c02f619f4196a7689d0c6e217,
         type: 3}
       propertyPath: m_Name
       value: assault1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6061322758735272114, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 6869665378811265544, guid: ea50504c02f619f4196a7689d0c6e217,
         type: 3}
@@ -229,6 +299,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6946611676674196900, guid: ea50504c02f619f4196a7689d0c6e217,
+        type: 3}
+      propertyPath: m_Layer
+      value: 3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea50504c02f619f4196a7689d0c6e217, type: 3}
