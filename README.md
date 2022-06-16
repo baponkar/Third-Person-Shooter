@@ -2,7 +2,7 @@
 ![C#badge](https://img.shields.io/badge/C-%23-brightgreen)
 
 # [Third Person Shooter](https://github.com/baponkar/third-person-shooter)
-## Version-1.1.0
+## Version-1.1.1
 
 * Play [Demo](https://baponkar.github.io/Third-Person-Shooter-Game-Demo/).
 
