@@ -18,12 +18,28 @@ namespace Baponkar.ThirdPerson.Shooter
         void Start()
         {
             mainCamera = Camera.main;
+            Cursor.visible = false;
+            Cursor.lockState = CursorLockMode.Locked;
         }
 
         void FixedUpdate()
         {
             float yawCamera = mainCamera.transform.rotation.eulerAngles.y;
             transform.rotation = Quaternion.Slerp(transform.rotation, Quaternion.Euler(0,yawCamera,0), Time.deltaTime * rotationSpeed);
+
+            if(Input.GetKeyDown(KeyCode.Escape))
+            {
+                if(Cursor.lockState == CursorLockMode.Locked)
+                {
+                    Cursor.visible = true;
+                    Cursor.lockState = CursorLockMode.None;
+                }
+                else
+                {
+                    Cursor.visible = false;
+                    Cursor.lockState = CursorLockMode.Locked;
+                }
+            }
         }
     }
 }

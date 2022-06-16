@@ -113,6 +113,11 @@ namespace Baponkar.ThirdPerson.Shooter
                         bullet.tracer.transform.position = hitInfo.point;
                         bullet.time = maxLifeTime;
                     }
+
+                    if(hitInfo.transform.GetComponent<Rigidbody>() != null)
+                    {
+                        hitInfo.transform.GetComponent<Rigidbody>().AddForce(direction * bulletSpeed);
+                    }
                 }
             }
             else
