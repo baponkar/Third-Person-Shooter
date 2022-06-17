@@ -28,6 +28,7 @@ This package also dependent on following packges :
 5. [Human Character (Free Sample Pack)](https://assetstore.unity.com/packages/3d/characters/human-characters-free-sample-pack-181554) by wolf3d
 6. [Polygon Starter Pack](https://assetstore.unity.com/packages/3d/props/polygon-starter-pack-low-poly-3d-art-by-synty-156819#description)
 7. [Unity Particle Pack](https://assetstore.unity.com/packages/essentials/tutorial-projects/unity-particle-pack-127325#description)
+8. [SG553 Assult Rifle](https://skfb.ly/6yNPN)
 
 So you need to import above packages except third from 'Unity Asset store' as I have removed from my
 package to save memory.Although you need to download 'Standard Asset Character' from here.
@@ -85,6 +86,7 @@ Unity 2020.3.15f2 or higher version.
 4. [Wolf3d](https://assetstore.unity.com/packages/3d/characters/human-characters-free-sample-pack-181554)
 5. [Synty Studio](https://assetstore.unity.com/publishers/5217)
 6. [mixamo.com](https://www.mixamo.com)
+7. [wburtn](https://skfb.ly/6yNPN)
 
 
 ## Contact : [Email](gamingjam60@gmail.com) , @baponkar in twitter
