@@ -33,6 +33,7 @@ namespace  Baponkar.ThirdPerson.Shooter
         bool jumpInput;
         bool isJumping;
         bool sprintInput;
+        bool isCrouching;
         int isSprintingParam = Animator.StringToHash("isSprinting");
         #endregion
 
@@ -72,6 +73,8 @@ namespace  Baponkar.ThirdPerson.Shooter
             {
                 Jump();
             }
+
+            Crouching();
             
         }
 
@@ -99,6 +102,10 @@ namespace  Baponkar.ThirdPerson.Shooter
             input.y = Input.GetAxis("Vertical");
             jumpInput = Input.GetKeyDown(KeyCode.Space);
             sprintInput = Input.GetKey(KeyCode.LeftShift);
+            if(Input.GetKeyDown(KeyCode.C))
+            {
+                isCrouching = !isCrouching;
+            }
         }
 
         public void OnAnimatorMove()
@@ -113,6 +120,23 @@ namespace  Baponkar.ThirdPerson.Shooter
             bool isFireing = activeWeapon.isFireing();
 
             return isSprinting && !isFireing;
+        }
+
+        void Crouching()
+        {
+            if(isCrouching)
+            {
+                animator.SetBool("isCrouching", true);
+                cc.height = 0.94f;
+                //cc.center = new Vector3(0,0.93f,0);
+                
+            }
+            else
+            {
+                animator.SetBool("isCrouching", false);
+                cc.height = 1.6f;
+                cc.center = new Vector3(0,0.9f,0);
+            }
         }
 
 

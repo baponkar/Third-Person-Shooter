@@ -12,7 +12,7 @@ namespace Baponkar.ThirdPerson.Shooter
 
         void Start()
         {
-            
+            health = FindObjectOfType<PlayerHealth>();
         }
 
         

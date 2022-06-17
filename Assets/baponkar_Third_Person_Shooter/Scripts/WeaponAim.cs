@@ -44,8 +44,8 @@ namespace Baponkar.ThirdPerson.Shooter
             // weaponAimLayer.weight = 1.0f;
             // bodyLayer.weight = 1.0f;
 
-            fireInput = Input.GetButtonDown("Fire1");
-            FireControl(fireInput);
+            // fireInput = Input.GetButtonDown("Fire1");
+            // FireControl(fireInput);
             
         }
 
