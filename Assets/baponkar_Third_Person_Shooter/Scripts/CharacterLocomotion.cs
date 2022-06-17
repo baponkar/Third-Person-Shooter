@@ -102,6 +102,7 @@ namespace  Baponkar.ThirdPerson.Shooter
             input.y = Input.GetAxis("Vertical");
             jumpInput = Input.GetKeyDown(KeyCode.Space);
             sprintInput = Input.GetKey(KeyCode.LeftShift);
+            
             if(Input.GetKeyDown(KeyCode.C))
             {
                 isCrouching = !isCrouching;

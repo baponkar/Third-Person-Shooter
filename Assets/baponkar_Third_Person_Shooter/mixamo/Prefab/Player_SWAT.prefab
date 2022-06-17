@@ -2582,7 +2582,7 @@ Animator:
   m_GameObject: {fileID: 9114826830033936380}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 9100000, guid: 84f6d341e973e9846846242034751672, type: 2}
+  m_Controller: {fileID: 9100000, guid: 8cb0cce81bbaead419c08a70aba65cd8, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 1
   m_ApplyRootMotion: 0
@@ -3589,7 +3589,7 @@ Animator:
   m_GameObject: {fileID: 9114826831449279978}
   m_Enabled: 1
   m_Avatar: {fileID: 9000000, guid: 573c089e0223ac34397075bfc49c1377, type: 3}
-  m_Controller: {fileID: 9100000, guid: d6782961a36d3d64caea0028895ae0bd, type: 2}
+  m_Controller: {fileID: 9100000, guid: 747ed528f4106ec4088133da5b90a649, type: 2}
   m_CullingMode: 1
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
@@ -3629,7 +3629,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   rigController: {fileID: 9114826831449279980}
-  jumpHeight: 3
+  jumpHeight: 2
   gravity: 20
   stepDown: 0.3
   airControl: 2.5
