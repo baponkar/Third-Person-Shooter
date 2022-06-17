@@ -77,6 +77,15 @@ You can use it for non commercial purpose  but if you want to use it for commarc
 ## Unity Version
 Unity 2020.3.15f2 or higher version.
 
-## Contact : [Email](gamingjam60@gmail.com) , @baponkar
+## Thanks and Credits :
+1. Unity Technologies
+2. [Kiwi Coder](https://www.youtube.com/c/TheKiwiCoder)
+3. [Fun Asset](https://assetstore.unity.com/publishers/53292)
+4. [Wolf3d](https://assetstore.unity.com/packages/3d/characters/human-characters-free-sample-pack-181554)
+5. [Synty Studio](https://assetstore.unity.com/publishers/5217)
+6. [mixamo.com](https://www.mixamo.com)
+
+
+## Contact : [Email](gamingjam60@gmail.com) , @baponkar in twitter
 
 
