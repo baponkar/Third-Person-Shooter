@@ -9,9 +9,9 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 3581488717408203924}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: raycastOrigin
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -32,6 +32,36 @@ Transform:
   m_Father: {fileID: 6869665378811265544}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &4511868804136729677
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 7524231367167405872}
+  m_Layer: 11
+  m_Name: CapsuleInstatntiate
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &7524231367167405872
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4511868804136729677}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0.139, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 6869665378811265544}
+  m_RootOrder: 5
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &6061322758735272114
 GameObject:
   m_ObjectHideFlags: 0
@@ -46,9 +76,9 @@ GameObject:
   - component: {fileID: 3581488718040502528}
   - component: {fileID: 87361067483968804}
   - component: {fileID: 5533034662005822377}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: assault1
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -69,6 +99,7 @@ Transform:
   - {fileID: 5845165802926823973}
   - {fileID: 5845130793014636601}
   - {fileID: 5837052941764387185}
+  - {fileID: 7524231367167405872}
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -152,6 +183,7 @@ MonoBehaviour:
   fireRate: 25
   bulletSpeed: 1000
   bulletDrop: 5
+  capsuleInstantiatePosition: {fileID: 7524231367167405872}
 --- !u!114 &87361067483968804
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -220,7 +252,7 @@ MonoBehaviour:
       m_HoldForever: 0
     m_ImpactRadius: 100
     m_DirectionMode: 0
-    m_DissipationMode: 2
+    m_DissipationMode: 0
     m_DissipationDistance: 1
     m_PropagationSpeed: 1
   m_DefaultVelocity: {x: 0, y: -1, z: 0}
@@ -290,6 +322,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Sparks
+      objectReference: {fileID: 0}
+    - target: {fileID: 5638061908707565952, guid: d8fe93c7b505bf34383ae62da5d3fa78,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8fe93c7b505bf34383ae62da5d3fa78, type: 3}
@@ -387,6 +424,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HitEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 1696603662465917384, guid: 9c2ef85a5f49f4c49851260d4dcde69c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c2ef85a5f49f4c49851260d4dcde69c, type: 3}
 --- !u!4 &5837052941764387185 stripped
@@ -467,6 +509,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Decal
+      objectReference: {fileID: 0}
+    - target: {fileID: 278993800713913726, guid: 8e120ded02dca4741ae7326113f992dd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e120ded02dca4741ae7326113f992dd, type: 3}
@@ -564,6 +611,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: MuzzleFlash01
       objectReference: {fileID: 0}
+    - target: {fileID: 5650181098856417824, guid: 62d4eba4e4d2a5740a3a8b4485329af1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62d4eba4e4d2a5740a3a8b4485329af1, type: 3}
 --- !u!4 &1639101575371951402 stripped
@@ -644,6 +696,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlashHeadon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087051558763100800, guid: d03a787102e43664c8aba76b5b430b25,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4214893362858801944, guid: d03a787102e43664c8aba76b5b430b25,
         type: 3}
@@ -740,6 +797,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dust
+      objectReference: {fileID: 0}
+    - target: {fileID: 3482408715636846371, guid: ab22902f7909edb47ad163782952ab97,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab22902f7909edb47ad163782952ab97, type: 3}

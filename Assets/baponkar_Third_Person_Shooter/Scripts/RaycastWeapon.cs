@@ -31,8 +31,7 @@ namespace Baponkar.ThirdPerson.Shooter
         public bool isFireing;
 
         public Transform raycastOrigin;
-        [HideInInspector]
-        public Transform raycastDestination;
+        [HideInInspector] public Transform raycastDestination;
         Ray ray;
 
         float maxLifeTime = 30.0f;
@@ -154,24 +153,6 @@ namespace Baponkar.ThirdPerson.Shooter
             var bullet = CreateBullet(raycastOrigin.position, velocity);
             bullets.Add(bullet);
             recoil.GenerateRecoil(weaponName);
-            // ray.origin = raycastOrigin.position;
-            // ray.direction = raycastDestination.position - raycastOrigin.position;
-
-            // var tracer = Instantiate(tracerEffect, raycastOrigin.position, Quaternion.identity);
-            // tracer.AddPosition(raycastDestination.position);
-
-            // if (Physics.Raycast(ray, out hitInfo))
-            // {
-            //     Debug.DrawLine(ray.origin, hitInfo.point, Color.red);
-            //     foreach (ParticleSystem hit in hitEffect)
-            //     {
-            //         hit.transform.position = hitInfo.point;
-            //         hit.transform.forward = hitInfo.normal;
-            //         hit.Emit(1);
-            //     }    tracer.transform.position = hitInfo.point;
-            //     }
-
-            // }
             
         }
 

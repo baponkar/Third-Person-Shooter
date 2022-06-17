@@ -9,7 +9,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 7078443046371027702}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: raycastOrigin
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -46,9 +46,9 @@ GameObject:
   - component: {fileID: 6242865925111771155}
   - component: {fileID: -6585893168453046483}
   - component: {fileID: -2367681287011342651}
-  m_Layer: 0
+  m_Layer: 11
   m_Name: pistol1
-  m_TagString: Untagged
+  m_TagString: Weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -152,6 +152,7 @@ MonoBehaviour:
   fireRate: 5
   bulletSpeed: 100
   bulletDrop: 1
+  capsuleInstantiatePosition: {fileID: 0}
 --- !u!114 &-6585893168453046483
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -291,6 +292,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Sparks
       objectReference: {fileID: 0}
+    - target: {fileID: 5638061908707565952, guid: d8fe93c7b505bf34383ae62da5d3fa78,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: d8fe93c7b505bf34383ae62da5d3fa78, type: 3}
 --- !u!4 &8900981025542081115 stripped
@@ -371,6 +377,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: FlashHeadon
+      objectReference: {fileID: 0}
+    - target: {fileID: 4087051558763100800, guid: d03a787102e43664c8aba76b5b430b25,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     - target: {fileID: 4214893362858801944, guid: d03a787102e43664c8aba76b5b430b25,
         type: 3}
@@ -493,6 +504,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: Decal
       objectReference: {fileID: 0}
+    - target: {fileID: 278993800713913726, guid: 8e120ded02dca4741ae7326113f992dd,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8e120ded02dca4741ae7326113f992dd, type: 3}
 --- !u!4 &6053427494137463354 stripped
@@ -588,6 +604,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: MuzzleFlash01
+      objectReference: {fileID: 0}
+    - target: {fileID: 5650181098856417824, guid: 62d4eba4e4d2a5740a3a8b4485329af1,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 62d4eba4e4d2a5740a3a8b4485329af1, type: 3}
@@ -710,6 +731,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: HitEffect
       objectReference: {fileID: 0}
+    - target: {fileID: 1696603662465917384, guid: 9c2ef85a5f49f4c49851260d4dcde69c,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c2ef85a5f49f4c49851260d4dcde69c, type: 3}
 --- !u!4 &5361211873943492662 stripped
@@ -790,6 +816,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Name
       value: Dust
+      objectReference: {fileID: 0}
+    - target: {fileID: 3482408715636846371, guid: ab22902f7909edb47ad163782952ab97,
+        type: 3}
+      propertyPath: m_Layer
+      value: 11
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ab22902f7909edb47ad163782952ab97, type: 3}

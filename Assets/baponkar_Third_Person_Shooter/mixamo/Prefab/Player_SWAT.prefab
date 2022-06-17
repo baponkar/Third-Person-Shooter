@@ -3849,17 +3849,17 @@ PrefabInstance:
     - target: {fileID: 8645378004555640517, guid: 5eaf612e7da8ffc4e91f3844a8de6f61,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 2.6927018
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8645378004555640517, guid: 5eaf612e7da8ffc4e91f3844a8de6f61,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.4129108
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8645378004555640517, guid: 5eaf612e7da8ffc4e91f3844a8de6f61,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.053801708
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 8645378004555640517, guid: 5eaf612e7da8ffc4e91f3844a8de6f61,
         type: 3}
@@ -4028,6 +4028,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 9114826830405170043}
     m_Modifications:
+    - target: {fileID: 1079293462, guid: 8c2df20ea2673dd40888c48db99c95dc, type: 3}
+      propertyPath: layermask.m_Bits
+      value: 521
+      objectReference: {fileID: 0}
     - target: {fileID: 8788540278202562570, guid: 8c2df20ea2673dd40888c48db99c95dc,
         type: 3}
       propertyPath: m_RootOrder

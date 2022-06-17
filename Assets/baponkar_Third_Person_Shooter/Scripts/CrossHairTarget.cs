@@ -10,12 +10,13 @@ public class CrossHairTarget : MonoBehaviour
     Ray ray;
     RaycastHit hit;
 
-
-    
+    bool cursorLockMode;
 
     void Start()
     {
         mainCamera = Camera.main;
+        Cursor.visible = false;
+        Cursor.lockState = CursorLockMode.Locked;
     }
 
    
@@ -24,11 +25,16 @@ public class CrossHairTarget : MonoBehaviour
         ray.origin = mainCamera.transform.position;
         ray.direction = mainCamera.transform.forward;
 
-        if (Physics.Raycast(ray, out hit, layermask.value))
+        if (Physics.Raycast(ray, out hit, layermask.value, (int) QueryTriggerInteraction.Ignore))
         {
-            Debug.DrawLine(ray.origin, hit.point, Color.red);
             transform.position = hit.point;
         }
         
+    }
+
+    void OnDrawGizmos()
+    {
+        Gizmos.color = Color.green;
+        Gizmos.DrawSphere(transform.position, 0.1f);
     }
 }
