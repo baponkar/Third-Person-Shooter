@@ -7,12 +7,13 @@ namespace Baponkar.ThirdPerson.Shooter
 {
     public class HealthView : MonoBehaviour
     {
-        public Slider slider;
+        [HideInInspector] public Slider slider;
         PlayerHealth health;
 
         void Start()
         {
             health = FindObjectOfType<PlayerHealth>();
+            slider = GetComponentInChildren<Slider>();
         }
 
         

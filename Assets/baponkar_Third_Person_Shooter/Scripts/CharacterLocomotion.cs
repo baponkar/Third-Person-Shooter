@@ -67,7 +67,7 @@ namespace  Baponkar.ThirdPerson.Shooter
             animator.SetFloat("inputX", input.x);
             animator.SetFloat("inputY", input.y);
 
-            UpdateIsSprinting();
+            UpdateInSprinting();
 
             if(jumpInput)
             {
@@ -140,7 +140,7 @@ namespace  Baponkar.ThirdPerson.Shooter
         }
 
 
-        void UpdateIsSprinting()
+        void UpdateInSprinting()
         {
             bool isSprinting = IsSprinting();
             
